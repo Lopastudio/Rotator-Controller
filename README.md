@@ -44,10 +44,3 @@ Change the port in `Otvor()`:
 ```csharp
 port = new SerialPort("COM17", 9600, ...);
 ```
-
-## Calibration
-
-1. Point the antenna to a known bearing manually.
-2. Set `aktualnyUhol` in `SerialDriver` to match that bearing.
-3. Click a target on the compass and time how long the rotor takes to arrive.
-4. Adjust `cas1`, `cas5`, `cas10` until the needle matches reality.
